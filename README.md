@@ -1,28 +1,33 @@
 # Pokemon Data Storytelling
+
 ## Table of Contents
-1. Introduction.
-2. Dataset Description.
-3. Data Storytelling.
-4. Conclusion.
-5. Acknowledgments.
- 
+1. Introduction
+2. Dataset Description
+3. Data Storytelling
+   - 3.1 Data Exploration
+   - 3.2 Insights and Analysis
+   - 3.3 Visualizations
+4. Conclusion
+5. Acknowledgments
+6. Dashboard Link
+
 ## 1. Introduction
 Welcome to the Pokemon Data Storytelling project! This repository contains a dataset with information about various Pokemon. The objective of this project is to explore the dataset, analyze the data, and present meaningful insights through storytelling and visualizations.
 
 ## 2. Dataset Description
 The Pokemon dataset contains the following columns:
+- **name**: The name of the Pokemon.
+- **imageurl**: The URL of an image representing the Pokemon.
+- **type1**: The primary type of the Pokemon (e.g., Water, Fire, Grass, Electric, etc.).
+- **type2**: The secondary type of the Pokemon (if applicable).
+- **total**: The total base stats of the Pokemon.
+- **hp**: The hit points stat of the Pokemon (health points).
+- **attack**: The attack stat of the Pokemon.
+- **defense**: The defense stat of the Pokemon.
+- **speed**: The speed stat of the Pokemon.
+- **spl.atck**: The special attack stat of the Pokemon.
+- **spl.defense**: The special defense stat of the Pokemon.
 
-### name: The name of the Pokemon.
-### imageurl: The URL of an image representing the Pokemon.
-### type1: The primary type of the Pokemon (e.g., Water, Fire, Grass, Electric, etc.).
-#### type2: The secondary type of the Pokemon (if applicable).
-#### total: The total base stats of the Pokemon.
-#### hp: The hit points stat of the Pokemon (health points).
-#### attack: The attack stat of the Pokemon.
-#### defense: The defense stat of the Pokemon.
-#### speed: The speed stat of the Pokemon.
-#### spl.atck: The special attack stat of the Pokemon.
-#### spl.defense: The special defense stat of the Pokemon.
 ## 3. Data Storytelling
 In this section, we will dive into the dataset, perform data exploration, and derive interesting insights from the data.
 
@@ -31,11 +36,11 @@ We will begin by loading the dataset and understanding its structure. Exploring 
 
 ### 3.2 Insights and Analysis
 After the initial exploration, we will analyze the data to answer various questions and gain insights. Some potential analysis points include:
+- Which Pokemon types are the most common and which are the rarest?
+- What is the distribution of different Pokemon stats?
+- Are there any significant correlations between specific stats?
+- Are certain types of Pokemon more powerful than others on average?
 
-Which Pokemon types are the most common and which are the rarest?
-What is the distribution of different Pokemon stats?
-Are there any significant correlations between specific stats?
-Are certain types of Pokemon more powerful than others on average?
 ### 3.3 Visualizations
 To make the insights more compelling and easier to understand, we will create visualizations such as bar charts, scatter plots, and pie charts. These visual representations will provide a clear picture of the data and support the analysis.
 
@@ -45,6 +50,10 @@ In the conclusion section, we will summarize the key findings from our data stor
 ## 5. Acknowledgments
 We would like to express our gratitude to the creators of the Pokemon dataset for making it publicly available. Their efforts have enabled us to carry out this data storytelling project.
 
+## 6. Dashboard Link
+You can find the interactive Tableau dashboard for this Pokemon dataset [here](https://public.tableau.com/app/profile/shivakumar.kamate/viz/pokemon_16894068819320/Final_dashboard?publish=yes).
+
 Please feel free to explore the code, data, and visualizations provided in this repository. If you have any questions or suggestions, don't hesitate to reach out.
 
 Happy data storytelling!
+
